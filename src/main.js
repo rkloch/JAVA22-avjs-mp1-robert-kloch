@@ -104,8 +104,9 @@ function checkIfHighscore(){
         dataHighScore[4].score = playerPoints;
         playerPoints = 0;
         document.getElementById("points").innerText = `${playerPoints}`;
-        putToFirebase(dataHighScore);
         addHighScores(dataHighScore);
+        putToFirebase(dataHighScore);
+        
     }
     
 }
