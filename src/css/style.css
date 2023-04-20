@@ -1,0 +1,32 @@
+body{
+background: linear-gradient(90deg, rgba(69, 246, 214, 1) 0%, rgba(15, 184, 198, 1) 32%, rgba(29, 194, 210, 1) 50%, rgba(44, 204, 223, 1) 69%, rgba(204, 181, 46, 1) 100%);}
+h1{
+    text-align: center;
+}
+.mirror-img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+h3{
+    text-align: center;
+}
+.imgContainer{
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+img{
+    width: auto;
+    height: auto;
+}
+#buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+form{
+    text-align: center;
+}
+li{
+    margin-left: 45%;
+}
